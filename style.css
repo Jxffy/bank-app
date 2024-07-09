@@ -154,7 +154,7 @@
         display: flex;
         width: 70%;
         justify-content: space-between;
-        padding: 10px;
+        padding: 12px;
         border-bottom: 1px solid #ecf0f1;
     }
     
@@ -249,12 +249,12 @@ font-size: 15px;
     height: fit-content;
     position: absolute;
     right: 105px;
-    bottom: 70px;
+    bottom: 49px;
     width: 20%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 40px
+    padding: 52px;
 
 
 }
@@ -288,3 +288,40 @@ font-size: 15px;
     top: 20px;
     left: 20px;
 }
+
+
+
+/* 
+    
+    .monthly-summary {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .monthly-summary h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .summary-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        width: 14%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .summary-card p {
+        margin: 0;
+    }
+    
+    .summary-card p:first-child {
+        font-size: 14px;
+        color: #7f8c8d;
+    }
+    
+    .summary-card p:last-child {
+        font-size: 18px;
+    } */
