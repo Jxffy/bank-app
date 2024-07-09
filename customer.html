@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/phx.png.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-money-bill-transfer"></i></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <header>
+                <div class="welcome">
+                    <h1 style="font-size: 40px;">Banking Dashboard</h1>
+                    <p style="font-size: 30px;">Welcome Back, Jeffy</p>
+                </div>
+                <div class="notifications">
+                    <span class="notification-count">5</span>
+                </div>
+            </header>
+            <section class="current-balances">
+                <div class="balance-card">
+                    <div class="card-header">£ 3435.34</div>
+                    <div class="card-footer">Masudur Rahman | 03/26</div>
+                </div>
+                <div class="balance-card">
+                    <div class="card-header">$ 5454.34</div>
+                    <div class="card-footer">Masudur Rahman | 06/22</div>
+                </div>
+                <div class="balance-card">
+                    <div class="card-header">€ 435.34</div>
+                    <div class="card-footer">Masudur Rahman | 08/25</div>
+                </div>
+                <div class="balance-card">
+                    <div class="card-header">CHF 235.65</div>
+                    <div class="card-footer">Masudur Rahman | 04/22</div>
+                </div>
+            </section>
+            <div class="current-balance">
+                Current Balance: 13435.34
+            </div>
+            <section class="transactions">
+                <div class="trans-money">
+                <h2>My Transactions</h2>
+                
+                <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="transaction-name">Patreon Membership</p>
+                        <p class="transaction-date">20 May 2020</p>
+                    </div>
+                    <div class="transaction-amount">
+                        <p>Subscribe</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="transaction-name">UI GEEK INC</p>
+                        <p class="transaction-date">10 March 2020</p>
+                    </div>
+                    <div class="transaction-amount">
+                        <p>Received</p>
+                        <p>+ $4350.00</p>
+                    </div>
+                </div>
+                <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="transaction-name">Hitam Labou</p>
+                        <p class="transaction-date">20 May 2020</p>
+                    </div>
+                    <div class="transaction-amount">
+                        <p>Sent</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <!-- <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="transaction-name">Slava Kornilov</p>
+                        <p class="transaction-date">05 March 2020</p>
+                    </div>
+                    <div class="transaction-amount">
+                        <p>Pending</p>
+                        <p>$150.00</p>
+                    </div> -->
+                <!-- </div>
+                <div class="transaction"> -->
+                    <!-- <div class="transaction-details">
+                        <p class="transaction-name">iMac 5k</p>
+                        <p class="transaction-date">20 May 2020</p>
+                    </div>
+                    <div class="transaction-amount">
+                        <p>Purchase</p>
+                        <p>$6350.00</p> -->
+                    <!-- </div>
+                </div> -->
+            </section>
+            <section class="send-money">
+                
+                <h2>Send Money</h2><br>
+                <!-- <div class="send-money-form">
+                    <input type="number" placeholder="Amount">
+                    <button>Send Money</button>
+                </div> -->
+                </div>
+    </div>
+            </section>
+            <section class="monthly-summary">
+                <h2>This Month</h2>
+                <div class="summary-card">
+                    <p>Credit Limit</p>
+                    <p>$2304 / $5054</p>
+                </div>
+                <div class="summary-card">
+                    <p>Online Limit</p>
+                    <p>$4204 / $5054</p>
+                </div>
+                <div class="summary-card">
+                    <p>Income</p>
+                    <p>$7685</p>
+                </div>
+                <div class="summary-card">
+                    <p>Hold</p>
+                    <p>$1455</p>
+                </div>
+                <div class="summary-card">
+                    <p>Expense</p>
+                    <p>$4455</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b5ac938454.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

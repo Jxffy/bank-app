@@ -1,0 +1,261 @@
+*{
+font-family: Wittgenstein;
+
+}
+
+.user-type.button,.login-details.button{
+
+    border: none;
+    padding: 40px;
+}
+
+
+#login-details{
+    display: none;
+}
+
+
+/*customer.html*/
+
+body {
+    font-family: Wittgenstein;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #16289e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+.logo img {
+    width: 50px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    padding: 10px 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f6f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .welcome h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .welcome p {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+header .notifications {
+    position: relative;
+}
+
+header .notifications .notification-count {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.current-balances {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.balance-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 23%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.balance-card .card-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.balance-card .card-footer {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.current-balance {
+    background-color: #27ae60;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.transactions {
+    margin-bottom: 20px;
+
+    
+}
+
+.transactions h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.transaction {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.transaction .transaction-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction .transaction-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.transaction .transaction-date {
+    font-size: 8px;
+    color: #7f8c8d;
+}
+
+.transaction .transaction-amount {
+    display: flex;
+    align-items: center;
+}
+
+.transaction .transaction-amount p {
+    margin: 0 8px;
+}
+.trans-money{
+    float: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+
+
+.send-money {
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.send-money h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.send-money-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-money-form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.send-money-form button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.monthly-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.monthly-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.summary-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 14%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summary-card p {
+    margin: 0;
+}
+
+.summary-card p:first-child {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.summary-card p:last-child {
+    font-size: 18px;
+}
