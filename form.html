@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +21,7 @@
         <h5>Customer-Application</h5>
       </div>
       <div class="panel-body">
-        <form class="form-horizontal" role="form">
+        <form class="form-horizontal" role="form" id="myform" >
           <div class="form-group">
             <label class="control-label col-md-2 col-md-offset-2" for="id_accomodation">Type of Account</label>
             <div class="col-md-2">
@@ -46,7 +47,7 @@
               </div>
               <div class="col-md-3 indent-small">
                 <div class="form-group internal">
-                  <input class="form-control" id="id_first_name" type="text" placeholder="First Name">
+                  <input class="form-control" id="id_first_name" type="text" placeholder="First Name" >
                 </div>
               </div>
               <div class="col-md-3 indent-small">
@@ -72,12 +73,12 @@
             <div class="col-md-6">
               <div class="form-group">
                 <div class="col-md-11">
-                  <input class="form-control" id="id_email" type="text" placeholder="E-mail">
+                  <input class="form-control" id="id_email" type="text" placeholder="E-mail" >
                 </div>
               </div>
               <div class="form-group internal">
                 <div class="col-md-11">
-                  <input class="form-control" id="id_phone" type="text" placeholder="Phone: (xxx) - xxx xxxx">
+                  <input class="form-control" id="id_phone" type="text" placeholder="Phone: (xxx) - xxx xxxx" >
                 </div>
               </div>
             </div>
@@ -87,7 +88,7 @@
             <div class="col-md-8">
               <div class="col-md-3">
                 <div class="form-group internal input-group">
-                  <input class="form-control Date" id="id_dob" placeholder="DD-MM-YYYY">
+                  <input class="form-control Date" id="id_dob" placeholder="DD-MM-YYYY" >
                   <span class="input-group-addon">
                     <i class="glyphicon glyphicon-calendar"></i>
                   </span>
@@ -101,7 +102,7 @@
             <div class="col-md-8">
               <div class="col-md-3">
                 <div class="form-group internal">
-                  <input class="form-control" type="text" id="Address">
+                  <input class="form-control" type="text" id="Address" >
                 </div>
               </div>
 
@@ -112,7 +113,7 @@
             <label class="control-label col-md-2 col-md-offset-2" for="alt-acc">Already having Account?</label>
             <div class="col-md-8">
               <div class="make-switch" id="alt" data-on-label="YES" data-off-label="NO">
-                <input type="checkbox" value="chk_hydro" id="alt-acc">
+                <input type="checkbox" value="chk_hydro" id="alt-acc" >
               </div>
             </div>
           </div>
@@ -120,15 +121,15 @@
           <div class="form-group">
             <label class="control-label col-md-2 col-md-offset-2" for="id_proof" >Upload ID Proof</label>
             <div class="col-md-6">
-                <input type="file" class="form-control" id="id_proof" name="id_proof">
+                <input type="file" class="form-control" id="id_proof" name="id_proof" >
             </div>
         </div>
           <div class="form-group">
-            <div class="col-md-offset-4 col-md-3" style="margin-top: 25px;">
-              <button class="btn btn-lg btn-primary" type="submit">Create Account</button>
+          <div class="col-md-offset-4 col-md-3" style="margin-top: 25px;">
+            <button class="btn btn-lg btn-primary" type="submit"  onclick="navigateToPage()">Create Account</button>
             </div>
             <div class="col-md-3">
-              <button class="btn btn-lg btn-danger" type="submit" style="float:right; margin-top: 25px;">Cancel</button>
+             <a href="admin.htmln "> <button class="btn btn-lg btn-danger"  style="float:right; margin-top: 25px;">Cancel</button></a>
             </div>
           </div>
         </form>
@@ -136,5 +137,12 @@
     </div>
   </div>
   <script src="index.js"></script>
+  <script>
+    function navigateToPage() {
+      window.location.href = 'sumited.html';
+    }
+  </script>
+
+
 </body>
 </html>
